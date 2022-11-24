@@ -1,0 +1,173 @@
+body{
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.outer-container{
+    width: 350px;
+    height: fit-content;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    margin: auto;
+    padding:20px auto 10px auto;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.4);
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+#card-image{
+    position: relative;
+    padding-top: 230px;
+    margin: 20px;
+}
+
+#img-before, #img-after{
+    position: absolute;
+    top: 35px;
+    border-radius: 25px;
+    left: 30px;
+}
+
+.info-space{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    
+    text-align: start;
+}
+
+.info-space-col1{
+    flex-direction: row;
+    margin-right: 50px;
+}
+
+.info-space-col2{
+    flex-direction: row;
+    margin-left: 60px;
+}
+
+#img-before{
+    width: 250px;
+    height: max-content;
+}
+
+#img-before:hover{
+    opacity: 0.3;
+}
+
+#img-after{
+    background-color: hsl(178, 100%, 50%);
+    padding: 100px;
+}
+
+.des-body{
+    color: hsl(215, 51%, 70%);
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.des-header{
+    margin-top: 30px;
+    font-weight: 800;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    color: hsl(0, 0%, 100%);
+}
+
+.attribution{
+    color: hsl(0, 0%, 100%);
+}
+
+.eth-figure{
+    color: hsl(178, 100%, 50%);
+    display: inline-flex;
+    flex-direction: row;
+    align-content: space-between;
+
+}
+
+#eth-image{
+    height: 18px;
+    position: absolute;    
+}
+
+.eth-text{
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#clock-image{    
+    height: 18px;
+    position: absolute;
+}
+
+.time-left{
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+}
+
+.eth-figureTwo{
+    color: hsl(215, 51%, 70%);
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-flex;
+    flex-direction: row;
+
+}
+
+#card-info{
+    display: flex;
+    padding-top: 10;
+    height: 30px;
+}
+
+.des-header:hover, #end-two:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+#profile span{
+    position: relative;
+    bottom: 13px;
+}
+
+#profile img{
+    width: 40px;
+    margin-left: 7px;
+    margin-right: 20px;
+}
+
+#profile img:hover{
+    width: 45px;
+    cursor: pointer;
+}
+
+#end-one{
+    color: hsl(215, 51%, 70%);
+    font-size: 14px;
+}
+
+#end-two{
+    color: hsl(0, 0%, 100%);
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.divider{
+    border: 0.1px solid hsl(215, 32%, 27%);
+    margin: 10px auto;
+}
+
+.description{
+    margin-top: 45px;
+    margin-left: 30px;
+    margin-right: 25px;
+    margin-bottom: 40px;
+    padding: 35px 15px 25px 20px;
+}
